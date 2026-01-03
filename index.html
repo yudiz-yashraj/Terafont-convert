@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terafont Keyboard Emulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>⌨️ Terafont Keyboard Emulator</h1>
+            <p class="subtitle">Two-Layer Architecture: Type Terafont → Convert to Unicode</p>
+        </header>
+
+        <!-- Instructions -->
+        <div class="instructions">
+            <div class="instruction-box">
+                <div class="instruction-icon">💡</div>
+                <div class="instruction-text">
+                    <strong>Turn on Caps Lock</strong> to type Gujarati consonants
+                </div>
+            </div>
+            <div class="instruction-box">
+                <div class="instruction-icon">⌨️</div>
+                <div class="instruction-text">
+                    Type using the <strong>Terafont keyboard layout</strong> (hardware mapping)
+                </div>
+            </div>
+            <div class="instruction-box">
+                <div class="instruction-icon">🔄</div>
+                <div class="instruction-text">
+                    Click <strong>"Convert to Unicode"</strong> to see Gujarati output
+                </div>
+            </div>
+        </div>
+
+        <!-- Editor Area - Layer 1 (Terafont Input) -->
+        <div class="editor-section">
+            <div class="editor-header">
+                <h2>📝 Terafont Input</h2>
+                <div class="editor-actions">
+                    <button id="clearInputBtn" class="btn btn-secondary">
+                        <span>🗑️</span> Clear
+                    </button>
+                    <div class="caps-indicator" id="capsIndicator">
+                        <span class="caps-dot"></span>
+                        <span id="capsText">Caps Lock OFF</span>
+                    </div>
+                </div>
+            </div>
+            <textarea id="terafontInput" class="terafont-textarea"
+                placeholder="Type here using Terafont keyboard... (This stores RAW Terafont text, NOT Unicode)"
+                spellcheck="false"></textarea>
+            <div class="editor-info">
+                ℹ️ This area stores <strong>legacy Terafont text</strong> only. No Unicode conversion happens while
+                typing.
+            </div>
+        </div>
+
+        <!-- Convert Button -->
+        <div class="convert-section">
+            <button id="convertBtn" class="btn btn-primary btn-large">
+                <span>🔄</span> Convert to Unicode Gujarati
+            </button>
+        </div>
+
+        <!-- Output Area - Layer 2 (Unicode Output) -->
+        <div class="editor-section">
+            <div class="editor-header">
+                <h2>✨ Unicode Output</h2>
+                <div class="editor-actions">
+                    <button id="copyBtn" class="btn btn-primary">
+                        <span>📋</span> Copy Unicode
+                    </button>
+                </div>
+            </div>
+            <textarea id="unicodeOutput" class="unicode-textarea"
+                placeholder="Unicode Gujarati will appear here after conversion..." readonly
+                spellcheck="false"></textarea>
+            <div class="editor-info success">
+                ✅ This area shows <strong>clean Unicode Gujarati</strong> after conversion. (Read-only)
+            </div>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-left">
+                <span id="statusMessage">Ready</span>
+            </div>
+            <div class="status-right">
+                <span id="charCount">0 characters</span>
+            </div>
+        </div>
+
+        <!-- Quick Reference -->
+        <div class="reference-section">
+            <h3>📚 Quick Reference</h3>
+            <div class="reference-grid">
+                <div class="reference-card">
+                    <h4>Keyboard States</h4>
+                    <ul>
+                        <li><strong>Normal:</strong> Lowercase, no Caps Lock</li>
+                        <li><strong>Caps:</strong> Caps Lock ON</li>
+                        <li><strong>Shift:</strong> Shift key pressed</li>
+                        <li><strong>Caps+Shift:</strong> Both ON</li>
+                    </ul>
+                </div>
+                <div class="reference-card">
+                    <h4>Example Mappings</h4>
+                    <ul>
+                        <li>Caps + <code>A</code> = બ</li>
+                        <li>Caps + <code>S</code> = ક</li>
+                        <li>Caps + <code>1</code> = ક્ષ</li>
+                        <li>Shift + <code>1</code> = ૧</li>
+                    </ul>
+                </div>
+                <div class="reference-card">
+                    <h4>System Architecture</h4>
+                    <ul>
+                        <li><strong>Layer 1:</strong> Keyboard emulation</li>
+                        <li><strong>Layer 2:</strong> Unicode conversion</li>
+                        <li>✅ No real-time conversion</li>
+                        <li>✅ Raw Terafont preserved</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Terafont Keyboard Emulator | Two-Layer Architecture | Deterministic Rule-Based Conversion</p>
+        </footer>
+    </div>
+
+    <!-- Scripts - Order matters! -->
+    <script src="converter.js"></script>
+    <script src="keyboard.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

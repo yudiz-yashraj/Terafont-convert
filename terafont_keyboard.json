@@ -1,0 +1,284 @@
+{
+  "`": {
+    "normal": "`",
+    "caps": "્",
+    "shift": "રૂ",
+    "caps_shift": null
+  },
+  "1": {
+    "normal": "1",
+    "caps": "ક્ષ",
+    "shift": "૧",
+    "caps_shift": null
+  },
+  "2": {
+    "normal": "2",
+    "caps": "×",
+    "shift": "%",
+    "caps_shift": null
+  },
+  "3": {
+    "normal": "3",
+    "caps": "ઘ",
+    "shift": "૩",
+    "caps_shift": null
+  },
+  "4": {
+    "normal": "4",
+    "caps": ",",
+    "shift": "૪",
+    "caps_shift": null
+  },
+  "5": {
+    "normal": "5",
+    "caps": "પ",
+    "shift": "૫",
+    "caps_shift": null
+  },
+  "6": {
+    "normal": "6",
+    "caps": "ણ",
+    "shift": "૬",
+    "caps_shift": null
+  },
+  "7": {
+    "normal": "7",
+    "caps": "જ્ઞ",
+    "shift": "૭",
+    "caps_shift": null
+  },
+  "8": {
+    "normal": "8",
+    "caps": "ટ",
+    "shift": "૮",
+    "caps_shift": null
+  },
+  "9": {
+    "normal": "9",
+    "caps": "ઠ",
+    "shift": "૯",
+    "caps_shift": null
+  },
+  "0": {
+    "normal": "0",
+    "caps": "ડ",
+    "shift": "૦",
+    "caps_shift": null
+  },
+  "-": {
+    "normal": "-",
+    "caps": "ઢ",
+    "shift": "ત્ર",
+    "caps_shift": null
+  },
+  "=": {
+    "normal": "=",
+    "caps": "^",
+    "shift": "O",
+    "caps_shift": null
+  },
+  "\\": {
+    "normal": "\\",
+    "caps": ".",
+    "shift": "-",
+    "caps_shift": null
+  },
+  "Q": {
+    "normal": "/",
+    "caps": "ૌ",
+    "shift": "ૌ",
+    "caps_shift": "/"
+  },
+  "W": {
+    "normal": "દ",
+    "caps": "ધ",
+    "shift": "ધ",
+    "caps_shift": "દ"
+  },
+  "E": {
+    "normal": "ા",
+    "caps": "ભ",
+    "shift": "ભ",
+    "caps_shift": "ા"
+  },
+  "R": {
+    "normal": "ર",
+    "caps": "ય",
+    "shift": "ય",
+    "caps_shift": "ર"
+  },
+  "T": {
+    "normal": "િ",
+    "caps": "ત",
+    "shift": "ત",
+    "caps_shift": "િ"
+  },
+  "Y": {
+    "normal": "ે",
+    "caps": "થ",
+    "shift": "થ",
+    "caps_shift": "ે"
+  },
+  "U": {
+    "normal": "ગ",
+    "caps": "ગ",
+    "shift": "ગ",
+    "caps_shift": "ગ"
+  },
+  "I": {
+    "normal": "હ",
+    "caps": "પ",
+    "shift": "પ",
+    "caps_shift": "હ"
+  },
+  "O": {
+    "normal": ":",
+    "caps": "ફ",
+    "shift": "ફ",
+    "caps_shift": ":"
+  },
+  "P": {
+    "normal": "ઉ",
+    "caps": ".",
+    "shift": ".",
+    "caps_shift": "ઉ"
+  },
+  "[": {
+    "normal": "“",
+    "caps": "’",
+    "shift": "’",
+    "caps_shift": "“"
+  },
+  "]": {
+    "normal": "”",
+    "caps": "૭",
+    "shift": "૭",
+    "caps_shift": "”"
+  },
+  "A": {
+    "normal": "ો",
+    "caps": "બ",
+    "shift": "બ",
+    "caps_shift": "ો"
+  },
+  "S": {
+    "normal": "(",
+    "caps": "ક",
+    "shift": "ક",
+    "caps_shift": "("
+  },
+  "D": {
+    "normal": "•",
+    "caps": "મ",
+    "shift": "મ",
+    "caps_shift": "•"
+  },
+  "F": {
+    "normal": ")",
+    "caps": "ા",
+    "shift": "ા",
+    "caps_shift": ")"
+  },
+  "G": {
+    "normal": "-",
+    "caps": "ન",
+    "shift": "ન",
+    "caps_shift": "-"
+  },
+  "H": {
+    "normal": "ુ",
+    "caps": "જ",
+    "shift": "જ",
+    "caps_shift": "ુ"
+  },
+  "J": {
+    "normal": "c",
+    "caps": "વ",
+    "shift": "વ",
+    "caps_shift": "c"
+  },
+  "K": {
+    "normal": "*",
+    "caps": "છ",
+    "shift": "છ",
+    "caps_shift": "*"
+  },
+  "L": {
+    "normal": "[",
+    "caps": "૧",
+    "shift": "૧",
+    "caps_shift": "["
+  },
+  ";": {
+    "normal": "સ",
+    "caps": "સ",
+    "shift": "સ",
+    "caps_shift": "સ"
+  },
+  "'": {
+    "normal": "c",
+    "caps": "‘",
+    "shift": "‘",
+    "caps_shift": "c"
+  },
+  "Z": {
+    "normal": "શ્ર",
+    "caps": "ર",
+    "shift": "ર",
+    "caps_shift": "શ્ર"
+  },
+  "X": {
+    "normal": "૨",
+    "caps": "શ",
+    "shift": "શ",
+    "caps_shift": "૨"
+  },
+  "C": {
+    "normal": "'",
+    "caps": "હ",
+    "shift": "હ",
+    "caps_shift": "'"
+  },
+  "V": {
+    "normal": "-",
+    "caps": "અ",
+    "shift": "અ",
+    "caps_shift": "-"
+  },
+  "B": {
+    "normal": "u",
+    "caps": "ખ",
+    "shift": "ખ",
+    "caps_shift": "u"
+  },
+  "N": {
+    "normal": "ધ",
+    "caps": "દ",
+    "shift": "દ",
+    "caps_shift": "ધ"
+  },
+  "M": {
+    "normal": "?",
+    "caps": "ે",
+    "shift": "ે",
+    "caps_shift": "?"
+  },
+  ",": {
+    "normal": "૯",
+    "caps": "લ",
+    "shift": "લ",
+    "caps_shift": "૯"
+  },
+  ".": {
+    "normal": "ઇ",
+    "caps": "ઈ",
+    "shift": "ઈ",
+    "caps_shift": "ઇ"
+  },
+  "/": {
+    "normal": "v",
+    "caps": "ળ",
+    "shift": "ળ",
+    "caps_shift": "v"
+  }
+}
